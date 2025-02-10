@@ -1,101 +1,123 @@
-<! DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>Amin's Portfolio</title>
-  <link rel="icon" type="image/x-icon" href="/static/images/favicon.ico">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amin's Portfolio - Under Construction</title>
+  <link rel="icon" type="image/x-icon" href="/static/favicon.ico" />
   <style>
-    /* Global Styles */
-    body,
-    html {
+    /* Global resets */
+    * {
+      box-sizing: border-box;
+    }
+    body, html {
       margin: 0;
       padding: 0;
-      font-family: 'Arial', sans-serif;
-      overflow-x: hidden;
+      height: 100%;
+      font-family: Arial, sans-serif;
     }
-    /* Header with a rocky vibe */
-    header {
-      background: #6d4c41; /* earthy rock tone */
-      color: #fff;
-      text-align: center;
+    /* Brick wall background using repeating linear gradients */
+    body {
+      background-color: #b22222; /* brick red base */
+      background-image: 
+        linear-gradient(90deg, #a52a2a 25%, transparent 25%), 
+        linear-gradient(90deg, #a52a2a 25%, transparent 25%), 
+        linear-gradient(0deg, #a52a2a 25%, transparent 25%), 
+        linear-gradient(0deg, #a52a2a 25%, transparent 25%);
+      background-size: 60px 60px;
+      background-position: 0 0, 30px 30px, 0 0, 30px 30px;
+    }
+    /* Container for the construction site scene */
+    .construction-site {
       position: relative;
-      height: 250px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      /* Create a jagged bottom edge reminiscent of rocky formations */
-      clip-path: polygon(0 0, 100% 0, 100% 70%, 50% 100%, 0 70%);
-    }
-    header h1 {
-      font-size: 3rem;
-      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    }
-    /* Main content area */
-    main {
-      padding: 20px;
-      background: #f4f4f4;
-      min-height: 300px;
-    }
-    main h2 {
-      color: #333;
-    }
-    /* Footer with an ocean theme */
-    footer {
-      position: relative;
-      height: 200px;
-      /* Ocean-inspired gradient background */
-      background: linear-gradient(to top, #01579b, #0277bd);
+      width: 100%;
+      height: 100vh;
       overflow: hidden;
     }
-    .ocean-text {
+    /* Simple crane element (CSS-only) */
+    .crane {
+      position: absolute;
+      top: 10%;
+      right: 5%;
+      width: 150px;
+      height: 200px;
+    }
+    .crane .arm {
+      position: absolute;
+      top: 10px;
+      left: 50%;
+      width: 120px;
+      height: 10px;
+      background: #444;
+      transform: translateX(-50%);
+    }
+    .crane .hook {
+      position: absolute;
+      top: 40px;
+      left: 50%;
+      width: 2px;
+      height: 50px;
+      background: #444;
+      transform: translateX(-50%);
+    }
+    .crane .base {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      width: 10px;
+      height: 100px;
+      background: #444;
+      transform: translateX(-50%);
+    }
+    /* Overlay container for the content */
+    .content {
       position: absolute;
       top: 50%;
       left: 50%;
+      width: 80%;
+      max-width: 600px;
       transform: translate(-50%, -50%);
+      background: rgba(0, 0, 0, 0.7);
+      padding: 20px 40px;
+      border: 3px solid #fff;
+      border-radius: 8px;
+      text-align: center;
       color: #fff;
-      font-size: 2rem;
-      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
-      z-index: 10;
     }
-    /* Create animated waves */
-    .wave {
-      position: absolute;
-      bottom: 0;
-      width: 200%;
-      height: 100px;
-      background: rgba(255, 255, 255, 0.4);
-      border-radius: 100%;
-      animation: waveAnimation 6s linear infinite;
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0 0 20px;
     }
-    /* Second wave for layered effect */
-    .wave:nth-of-type(2) {
-      bottom: 10px;
-      animation-duration: 8s;
-      opacity: 0.5;
+    main p {
+      font-size: 1.2rem;
+      margin: 0 0 20px;
     }
-    @keyframes waveAnimation {
-      0% {
-        transform: translateX(0);
-      }
-      100% {
-        transform: translateX(-50%);
-      }
+    footer p {
+      font-size: 1.5rem;
+      margin: 0;
     }
   </style>
 </head>
 <body>
-  <main>
-    <h2>Under construction!</h2>
-    <p>
-      Dive into a world where rugged rocks meet the soothing flow of the ocean.
-      Enjoy a blend of nature-inspired design, playful animations, and creative
-      flair.
-    </p>
-  </main>
-  <footer>
-    <div class="ocean-text">Dive into the Waves</div>
-    <div class="wave"></div>
-    <div class="wave"></div>
-  </footer>
-
+  <div class="construction-site">
+    <!-- Crane element simulating construction equipment -->
+    <div class="crane">
+      <div class="arm"></div>
+      <div class="hook"></div>
+      <div class="base"></div>
+    </div>
+    <!-- Content overlay with under-construction message -->
+    <div class="content">
+      <header>
+        <h1>Under Construction!</h1>
+      </header>
+      <main>
+        <p>This webpage is currently under construction. Our team is busy laying down the bricks and setting up scaffolding to build something amazing. Check back soon!</p>
+      </main>
+      <footer>
+        <p>Caution: Building in Progress</p>
+      </footer>
+    </div>
+  </div>
 </body>
 </html>
