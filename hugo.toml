@@ -2,6 +2,7 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = "Amin's Portfolio"
 theme = 'ananke'
+sectionPagesMenu = "main"
 
 [pagination]
     pagerSize = 3
@@ -9,6 +10,8 @@ theme = 'ananke'
 [params]
     description = "A webpage showcasing my awesome projects"
     commenttoEnable = true
+
+    author = "Syed M. Amin"
     
 [services.disqus]
     shortname = 'GM'
