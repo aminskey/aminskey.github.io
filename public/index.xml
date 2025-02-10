@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Amin&#39;s Portfolio</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Amin&#39;s Portfolio</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 10 Feb 2025 11:52:34 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Image classification w/ softmax regression</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
+      <pubDate>Mon, 10 Feb 2025 11:52:34 +0100</pubDate>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description>&lt;p&gt;Work in progress :D&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;h3 id=&#34;i-am-a-highschool-student-that-has-good-experience-in-the-field-of-programming&#34;&gt;I am a highschool student that has good experience in the field of programming.&lt;/h3&gt;&#xA;&lt;p&gt;Since I was a kid, I always had the knack for solving problems. Around the age of 10, I started to look into programming and computer Science. Since then I have been working on small projects, such as simple webscrapers and small mini-games. I mainly used to program in C. Here I would create projects like small IDEs, file readers and &lt;em&gt;as a matter of fact&lt;/em&gt; my own desktop program. I also found the structure of the linux operating system quite interesting. Although I wasn&amp;rsquo;t an expert on it (still am not), I would always read about how processes and the linux kernel work together.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

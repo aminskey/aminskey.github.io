@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Amin&#39;s Portfolio</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Amin&#39;s Portfolio</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 10 Feb 2025 11:52:34 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Image classification w/ softmax regression</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
+      <pubDate>Mon, 10 Feb 2025 11:52:34 +0100</pubDate>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description>&lt;p&gt;Work in progress :D&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

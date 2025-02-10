@@ -1,0 +1,14 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = "Amin's Portfolio"
+theme = 'ananke'
+
+[pagination]
+    pagerSize = 3
+
+[params]
+    description = "A webpage showcasing my awesome projects"
+    commenttoEnable = true
+    
+[services.disqus]
+    shortname = 'GM'

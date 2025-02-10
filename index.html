@@ -2,10 +2,100 @@
 <html>
 <head>
   <title>Amin's Portfolio</title>
-  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+  <link rel="icon" type="image/x-icon" href="/static/images/favicon.ico">
+  <style>
+    /* Global Styles */
+    body,
+    html {
+      margin: 0;
+      padding: 0;
+      font-family: 'Arial', sans-serif;
+      overflow-x: hidden;
+    }
+    /* Header with a rocky vibe */
+    header {
+      background: #6d4c41; /* earthy rock tone */
+      color: #fff;
+      text-align: center;
+      position: relative;
+      height: 250px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* Create a jagged bottom edge reminiscent of rocky formations */
+      clip-path: polygon(0 0, 100% 0, 100% 70%, 50% 100%, 0 70%);
+    }
+    header h1 {
+      font-size: 3rem;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    /* Main content area */
+    main {
+      padding: 20px;
+      background: #f4f4f4;
+      min-height: 300px;
+    }
+    main h2 {
+      color: #333;
+    }
+    /* Footer with an ocean theme */
+    footer {
+      position: relative;
+      height: 200px;
+      /* Ocean-inspired gradient background */
+      background: linear-gradient(to top, #01579b, #0277bd);
+      overflow: hidden;
+    }
+    .ocean-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #fff;
+      font-size: 2rem;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+      z-index: 10;
+    }
+    /* Create animated waves */
+    .wave {
+      position: absolute;
+      bottom: 0;
+      width: 200%;
+      height: 100px;
+      background: rgba(255, 255, 255, 0.4);
+      border-radius: 100%;
+      animation: waveAnimation 6s linear infinite;
+    }
+    /* Second wave for layered effect */
+    .wave:nth-of-type(2) {
+      bottom: 10px;
+      animation-duration: 8s;
+      opacity: 0.5;
+    }
+    @keyframes waveAnimation {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(-50%);
+      }
+    }
+  </style>
 </head>
 <body>
-  <h1>This site is under construction</h1>
-  <p>This website is currently under construction <br>and will hopefully be ready for viewing soon..</p>
+  <main>
+    <h2>Under construction!</h2>
+    <p>
+      Dive into a world where rugged rocks meet the soothing flow of the ocean.
+      Enjoy a blend of nature-inspired design, playful animations, and creative
+      flair.
+    </p>
+  </main>
+  <footer>
+    <div class="ocean-text">Dive into the Waves</div>
+    <div class="wave"></div>
+    <div class="wave"></div>
+  </footer>
+
 </body>
 </html>
