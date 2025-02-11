@@ -79,10 +79,11 @@
       transform: translate(-50%, -50%);
       background: rgba(0, 0, 0, 0.7);
       padding: 20px 40px;
-      border: 3px solid #fff;
+      border: 3px solid #00ff26;
       border-radius: 8px;
       text-align: center;
-      color: #fff;
+      color: #00ff26;
+      font-family: 'Courier New', Courier, monospace;
     }
     header h1 {
       font-size: 2.5rem;
@@ -96,16 +97,25 @@
       font-size: 1.5rem;
       margin: 0;
     }
+    #fullscreen {
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        width: 80%;
+        height: 80%;
+        border: none; /* Optional: Removes border around iframe */
+    }
   </style>
 </head>
 <body>
   <div class="construction-site">
     <!-- Crane element simulating construction equipment -->
-    <div class="crane">
+    <!--<div class="crane">
       <div class="arm"></div>
       <div class="hook"></div>
       <div class="base"></div>
-    </div>
+    </div>-->
+    <iframe src="/public/Classic-Pong-AI/index.html", id="fullscreen"></iframe>
     <!-- Content overlay with under-construction message -->
     <div class="content">
       <header>
