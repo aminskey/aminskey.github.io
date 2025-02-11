@@ -48,8 +48,12 @@ The project that I am currently working on is still in the storyboard phase. The
 A lot of pros and cons follow this method, but it still hasn't left the whiteboard yet.
 
 ### What about games?
-| {{< iframe src="/playableGames/pong-game/index.html" width="700" height="600" >}} |
+| {{<iframe src="/playableGames/pong-game/index.html" width="700" height="600">}} |
 |:--:|
-| A pong rivalry between 2 AI's embedded into the _about me_ page |
+| A pong rivalry between 2 AI's |
 
-more to come on games...
+I started my journey in game development back in 2021. One of the sole reasons I started programming was for the sake of entertainment. But this time I wanted to try something new. My first game was inspired by Geometry Dash with a mix of Sonic 2 aesthetic. Although it wasn't the best game, it still was quite fun and repetitive. Now I have refurnished that game and made it more user-friendly and easy to play.
+
+During my time at the highschool, I have learned a lot about game design. One of our specialised subjects DDU, which stands for _Digital Design and Development_ (Dansk: **D**igital **D**esign og **U**dvikling) offers a deep study on these aspects of games. This goes from work management models like SCRUM and Double Diamond to MDA, Dieter Rams' heuristics and the Gestalt Principles. 
+
+Each game shares a unique and thrilling experience and has a lot to offer. If you want to play some of those games, then check out the [Games Menu]({{<ref"/games">}} "Games Menu")
