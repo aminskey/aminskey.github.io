@@ -48,7 +48,7 @@ The project that I am currently working on is still in the storyboard phase. The
 A lot of pros and cons follow this method, but it still hasn't left the whiteboard yet.
 
 ### What about games?
-| {{< iframe src="/Classic-Pong-AI/index.html" width="700" height="600" >}} |
+| {{< iframe src="/playableGames/pong-game/index.html" width="700" height="600" >}} |
 |:--:|
 | A pong rivalry between 2 AI's embedded into the _about me_ page |
 
