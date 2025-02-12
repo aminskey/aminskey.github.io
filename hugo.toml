@@ -10,7 +10,7 @@ sectionPagesMenu = "main"
 [params]
     description = "A webpage showcasing my awesome projects"
     commenttoEnable = true
-    #mainSections = ["posts"]
+    mainSections = ["posts", "games"]
     author = "Syed M. Amin"
     
 [services.disqus]
