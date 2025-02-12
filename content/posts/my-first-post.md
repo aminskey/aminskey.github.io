@@ -6,11 +6,6 @@ featured_image: "/hospital.png"
 draft: true
 math: true
 ---
-<style>
-    code {
-        background-color : "blue";
-    }
-</style>
 Softmax regression is commonly known for transforming unreadable data into probabilites. These probabilites are measurements for how likely some given input is to match a certain class. Let's say that we have 3 classes; house, hospital and cottage. And based on an image of a structure, i.e. our input data, we compute its output via a linear transformation. 
 
 For this tutorial we will only be using a linear neural network model. This type of model only consists of an input and output layer. Our input layer for this example contains about 784 input channels. This is because we are sending 28x28 pixel images as input, which becomes flattened and turns into a 1x784 vector. The number of outputs of our model are equal to the number of classes/categories in context to the classification process. 
