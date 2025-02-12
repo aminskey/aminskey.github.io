@@ -1,6 +1,6 @@
 baseURL = 'https://aminskey.github.io/'
 languageCode = 'en-us'
-title = "Amin's Portfolio"
+title = "Amin's Page"
 theme = 'ananke'
 sectionPagesMenu = "main"
 ignoreLogs = ['warning-goldmark-raw-html']
