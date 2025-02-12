@@ -9,7 +9,7 @@ sectionPagesMenu = "main"
 
 [params]
     description = "A webpage showcasing my awesome projects"
-    commenttoEnable = true
+    commentoEnable = true
     mainSections = ["posts"]
     author = "Syed M. Amin"
 
