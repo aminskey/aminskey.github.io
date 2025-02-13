@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css?family=Consolas");
+
+.inst_table {
+    background: linear-gradient(to top, #000000, #000000, #4f4f4f, #333333);
+    background-size: cover;
+    background-size: 100% 1px;
+    background-color: black;
+    
+    padding: 10px;
+    
+    text-align: left;
+
+    border: 2px solid;
+    border-collapse: collapse;
+    border-radius: 5px;
+    font-family: "Courier";
+    text-shadow: 0 0 10px #00ff00;
+    color: #00ff08;
+    align-items: center;
+}
+
+.game {
+    max-width: 800px;
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.item {
+    padding-left: 15px;
+    border-left: 1px solid;
+}
+
+@media screen {
+    .inst_table {
+        animation: scanlines infinite 10s linear;
+    }
+}
+
+@keyframes scanlines {
+    from {
+        background-position: 0 0;
+    } to {
+        background-position: 0 -10px;
+    }
+}
