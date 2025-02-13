@@ -5,6 +5,11 @@ theme = 'ananke'
 sectionPagesMenu = "main"
 ignoreLogs = ['warning-goldmark-raw-html']
 
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true
+
 [pagination]
     pagerSize = 3
 
@@ -13,4 +18,5 @@ ignoreLogs = ['warning-goldmark-raw-html']
     commentoEnable = true
     mainSections = ["posts"]
     author = "Syed M. Amin"
+    custom_css = ["css/style.css"]
 
