@@ -6,9 +6,8 @@ featured_image = ""
 description = "A complete version of my first game ever built"
 +++
 
-<!-- {{<gameframe src="/playableGames/Sky-Dash-Beta-1.9.1/web/index.html" width="800px" >}} -->
 <div id="gameframe"></div>
-<div class="inst_table game" id="howto_table">
+<div class="inst_table game">
     <table>
         <tr>
             <th class>Game Controls:</th>
@@ -20,10 +19,10 @@ description = "A complete version of my first game ever built"
         </tr>
     </table>
 </div>
+<script src="/js/table_renderer.js"></script>
 <script>
     var curr_Path = window.location.pathname;
     var gameDiv = document.getElementById('gameframe');
-    var inst_table = document.getElementById('howto_table');
     if(curr_Path === "/games/skydash/" && gameDiv.childElementCount === 0){
         const iframe = document.createElement("iframe");
         iframe.classList.add('game');
@@ -32,8 +31,6 @@ description = "A complete version of my first game ever built"
         iframe.height = "400px";
         document.getElementById('gameframe').appendChild(iframe);
         console.log("Woohoo!");
-    } else {
-        inst_table.classList.remove("game");
     }
 </script>
 
