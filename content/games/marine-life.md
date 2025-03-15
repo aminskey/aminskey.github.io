@@ -2,12 +2,12 @@
 date = '2025-02-10T22:54:52+01:00'
 draft = false
 title = 'Marine Life'
-featured_image = ""
+featured_image = "marine_life.png"
 description = "A game built to raise awareness of the ocean cleanliness"
 +++
 
 <div id="gameframe"></div>
-<div class="inst_table game"s>
+<div class="inst_table">
     <table>
         <tr>
             <th class>Game Controls:</th>

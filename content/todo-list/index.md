@@ -8,5 +8,5 @@ featured_image: ""
 ---
 A small overview of articles and projects that I need to complete.
 - Complete writing draft: "Image classification w/ softmax regression"
-- Adding games to _Games_ menu
+- Finish Alien Wars and make it website compatible
 - Some redesigns

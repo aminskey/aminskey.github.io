@@ -2,12 +2,12 @@
 date = '2025-02-10T22:54:52+01:00'
 draft = false
 title = 'Sky Dash'
-featured_image = ""
+featured_image = "sky-dash.png"
 description = "A complete version of my first game ever built"
 +++
 
 <div id="gameframe"></div>
-<div class="inst_table game">
+<div class="inst_table">
     <table>
         <tr>
             <th class>Game Controls:</th>

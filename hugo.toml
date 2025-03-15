@@ -16,7 +16,7 @@ ignoreLogs = ['warning-goldmark-raw-html']
 [params]
     description = "A webpage showcasing my awesome projects"
     commentoEnable = true
-    mainSections = ["posts"]
+    mainSections = ["posts", "games"]
     author = "Syed M. Amin"
     custom_css = ["css/style.css"]
 
