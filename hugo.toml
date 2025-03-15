@@ -2,7 +2,7 @@ baseURL = 'https://aminskey.github.io/'
 languageCode = 'en-us'
 title = "Amin's Page"
 theme = 'ananke'
-sectionPagesMenu = "main"
+# sectionPagesMenu = "main"
 ignoreLogs = ['warning-goldmark-raw-html']
 
 [markup]
@@ -15,7 +15,7 @@ ignoreLogs = ['warning-goldmark-raw-html']
 
 [params]
     description = "A webpage showcasing my awesome projects"
-    commentoEnable = true
+    commenttoEnable = true
     mainSections = ["posts", "games"]
     author = "Syed M. Amin"
     custom_css = ["css/style.css"]
