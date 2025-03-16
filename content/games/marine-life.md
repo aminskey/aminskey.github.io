@@ -2,6 +2,7 @@
 date = '2025-02-10T22:54:52+01:00'
 draft = false
 title = 'Marine Life'
+author = "Syed M. Amin, Max A. Bühler and Johan V. Hedegaard"
 featured_image = "marine_life.png"
 description = "A game built to raise awareness of the ocean cleanliness"
 +++
