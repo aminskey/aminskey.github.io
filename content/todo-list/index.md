@@ -7,8 +7,10 @@ menu:
     weight: 1
 featured_image: ""
 ---
-A small overview of articles and projects that I need to complete.
-- Complete writing draft: "Image classification w/ softmax regression"
-- Finish Alien Wars and make it website compatible
+An overview of tasks that I need to complete.
+- Sky Dash
+    - Create Pop-up messages
+    - Add volume mechanic
+    - Add scrollbar to leaderboard page
 
-<p style="font-family:'Courier'">Updated on the 15th of march 2025.</p>
+<p style="font-family:'Courier'">Last updated on the 9th of November 2025.</p>
