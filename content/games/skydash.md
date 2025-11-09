@@ -26,7 +26,7 @@ description = "A complete version of my first game ever built"
     if(curr_Path === "/games/skydash/" && gameDiv.childElementCount === 0){
         const iframe = document.createElement("iframe");
         iframe.classList.add('game');
-        iframe.src = "/playableGames/Sky-Dash-Beta-1.9.7/web/index.html";
+        iframe.src = "/playableGames/Sky-Dash/web/index.html";
         iframe.width = "600px";
         iframe.height = "400px";
         document.getElementById('gameframe').appendChild(iframe);
