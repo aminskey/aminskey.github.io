@@ -35,4 +35,4 @@ description = "A game built to raise awareness of the ocean cleanliness"
     }
 </script>
 
-Marine Life is an awe-inspiring game that encourages its players to think about the ocean life. Based on a school assignment about raising awareness of one of UN's worldly goals while in cooperation with the UN (_just a pretend scenario_), this game aims to raise awareness about sea life. 
+Marine Life is a compelling game designed to engage players with the importance of sea life. Inspired by a school project aimed at raising awareness around one of the UN's global goals, the game seeks to impart a meaningful takeaway focused on the survival and well-being of marine ecosystems.
