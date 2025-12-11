@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Games on Amin&#39;s Page</title>
+    <link>http://localhost:1313/games/</link>
+    <description>Recent content in Games on Amin&#39;s Page</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 10 Feb 2025 22:54:52 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/games/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Alien Wars</title>
+      <link>http://localhost:1313/games/alien-wars/</link>
+      <pubDate>Mon, 10 Feb 2025 22:54:52 +0100</pubDate>
+      <guid>http://localhost:1313/games/alien-wars/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Marine Life</title>
+      <link>http://localhost:1313/games/marine-life/</link>
+      <pubDate>Mon, 10 Feb 2025 22:54:52 +0100</pubDate>
+      <guid>http://localhost:1313/games/marine-life/</guid>
+      <description>&lt;div id=&#34;gameframe&#34;&gt;&lt;/div&gt;&#xA;&lt;div class=&#34;inst_table&#34;&gt;&#xA;    &lt;table&gt;&#xA;        &lt;tr&gt;&#xA;            &lt;th class&gt;Game Controls:&lt;/th&gt;&#xA;            &lt;th class=&#34;item&#34;&gt;How to play&lt;/th&gt;&#xA;        &lt;/tr&gt;&#xA;        &lt;tr&gt;&#xA;            &lt;td&gt;Left-click&lt;br&gt;Right-click&lt;/td&gt;&#xA;            &lt;td class=&#34;item&#34;&gt; Try to survive the longest while avoiding plastics and other sorts of garbage. Eat algae to produce more fish.&lt;/td&gt;&#xA;        &lt;/tr&gt;&#xA;    &lt;/table&gt;&#xA;&lt;/div&gt;&#xA;&lt;script src=&#34;http://localhost:1313/js/table_renderer.js&#34;&gt;&lt;/script&gt;&#xA;&lt;script&gt;&#xA;    var curr_Path = window.location.pathname;&#xA;    var gameDiv = document.getElementById(&#39;gameframe&#39;);&#xA;    if(curr_Path === &#34;/games/marine-life/&#34; &amp;&amp; gameDiv.childElementCount === 0){&#xA;        const iframe = document.createElement(&#34;iframe&#34;);&#xA;        iframe.classList.add(&#39;game&#39;);&#xA;        iframe.src = &#34;/playableGames/Marine-Life/web/index.html&#34;;&#xA;        iframe.width = &#34;600px&#34;;&#xA;        iframe.height = &#34;600px&#34;;&#xA;        document.getElementById(&#39;gameframe&#39;).appendChild(iframe);&#xA;        console.log(&#34;Woohoo!&#34;);&#xA;    }&#xA;&lt;/script&gt;&#xA;&lt;p&gt;Marine Life is an awe-inspiring game that encourages its players to think about the ocean life. Based on a school assignment about raising awareness of one of UN&amp;rsquo;s worldly goals while in cooperation with the UN (&lt;em&gt;just a pretend scenario&lt;/em&gt;), this game aims to raise awareness about sea life.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sky Dash</title>
+      <link>http://localhost:1313/games/skydash/</link>
+      <pubDate>Mon, 10 Feb 2025 22:54:52 +0100</pubDate>
+      <guid>http://localhost:1313/games/skydash/</guid>
+      <description>&lt;div id=&#34;gameframe&#34;&gt;&lt;/div&gt;&#xA;&lt;div class=&#34;inst_table&#34;&gt;&#xA;    &lt;table&gt;&#xA;        &lt;tr&gt;&#xA;            &lt;th class&gt;Game Controls:&lt;/th&gt;&#xA;            &lt;th class=&#34;item&#34;&gt;How to play&lt;/th&gt;&#xA;        &lt;/tr&gt;&#xA;        &lt;tr&gt;&#xA;            &lt;td&gt;Space bar&lt;br&gt;Left-click&lt;/td&gt;&#xA;            &lt;td class=&#34;item&#34;&gt; Try to survive the longest while avoiding seagulls and lava blocks.&lt;/td&gt;&#xA;        &lt;/tr&gt;&#xA;    &lt;/table&gt;&#xA;&lt;/div&gt;&#xA;&lt;script src=&#34;http://localhost:1313/js/table_renderer.js&#34;&gt;&lt;/script&gt;&#xA;&lt;script&gt;&#xA;    var curr_Path = window.location.pathname;&#xA;    var gameDiv = document.getElementById(&#39;gameframe&#39;);&#xA;    if(curr_Path === &#34;/games/skydash/&#34; &amp;&amp; gameDiv.childElementCount === 0){&#xA;        const iframe = document.createElement(&#34;iframe&#34;);&#xA;        iframe.classList.add(&#39;game&#39;);&#xA;        iframe.src = &#34;/playableGames/Sky-Dash-Beta-1.9.1/web/index.html&#34;;&#xA;        iframe.width = &#34;600px&#34;;&#xA;        iframe.height = &#34;400px&#34;;&#xA;        document.getElementById(&#39;gameframe&#39;).appendChild(iframe);&#xA;        console.log(&#34;Woohoo!&#34;);&#xA;    }&#xA;&lt;/script&gt;&#xA;&lt;p&gt;Sky Dash is an amazing, yet simple game. While speeding across the clouds and floating platforms, make sure to dodge the incoming lava blocks and seagulls. And who knows, you might even set a new highscore!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
